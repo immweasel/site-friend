@@ -1,0 +1,19 @@
+
+.des_txt {
+	background-color: #FFB800;
+	color: #4B2D10;
+	border-radius: 70px 0 0 70px;
+	font-weight: 500;
+	font-size: 28px;
+	padding-right: 115px;
+}
+
+.des_txt p {
+	padding-top: 50px;
+	padding-left: 105px;
+	padding-bottom: 50px;
+}
+
+.wrapper_des_txt {
+	padding: 10px 0 20px 0;
+}

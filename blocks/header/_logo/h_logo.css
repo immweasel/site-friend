@@ -1,0 +1,19 @@
+
+.h_logo img {
+	width: 165px;
+	margin-left: 20px;
+}
+
+@media (max-width: 768px) {
+	.h_logo img {
+		width: 150px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 480px) {
+	.h_logo img {
+		width: 120px;
+		margin-bottom: 20px;
+	}
+}

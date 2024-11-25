@@ -1,0 +1,13 @@
+
+.slider_wrapper {
+	display: flex;
+	/* overflow-x: scroll;
+	scroll-behavior: smooth scroll;
+	width: 100%;
+	padding-bottom: 20px; */
+	transition: transform 0.8s ease-in-out;
+}
+
+.slider_wrapper::-webkit-scrollbar {
+	display: none;
+}
