@@ -1,6 +1,7 @@
 
 .box_2 {
-	padding: 120px;
+	padding: 90px;
+	padding-top: 34px;
 	font-size: 36px;
 	/* background-color: #FFB800; */
 	border: 3px solid #BB8D6C;
@@ -8,8 +9,9 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 	text-align: center;
+	width: 450px;
+	height: 550px;
 }
 
 .box_2 img {

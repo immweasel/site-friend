@@ -17,3 +17,10 @@
 	font-size: 40px;
 	padding: 10px 80px 10px 100px;
 }
+
+@media (max-width: 480px) {
+	.about_txt_inner {
+		font-size: 22px;
+		padding: 10px 80px 10px 25px;
+	}
+}

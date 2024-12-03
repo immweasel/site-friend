@@ -12,3 +12,10 @@
 .about_slog_inv {
 	background-color: #4B2D10;
 }
+
+@media (max-width: 480px) {
+	.about_slog {
+		padding: 10px 50px 15px 25px;
+		font-size: 28px;
+	}
+}

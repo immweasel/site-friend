@@ -5,3 +5,10 @@
 	width: 650px;
 	padding-bottom: 60px;
 }
+
+@media (max-width: 480px) {
+	.about_logo img {
+		width: 287px;
+		height: 169px;
+	}
+}

@@ -76,48 +76,80 @@
 		<div class="product">
 			<div class="heading" id="about"><img src="image/product.png"></div>
 			<h2 id="why">Почему мы?</h2>
-			<div class="slider">
-				<div class="slider_wrapper">
-					<div class="box_wrapper">
-						<div class="box_1">
-							<img src="svg/box-1.svg">
-							<div class="box_txt">
-								Интуитивно<br> понятный<br> интерфейс
+			
+			<div class="slideshow-container">
+				<div class="slider">
+					<div class="slider_wrapper">
+
+						<div id="slide-one" class="slides one">
+							<div class="box_wrapper">
+								<div class="box_1">
+									<img src="svg/box-1.svg" width=318px height=320px>
+									<div class="box_txt">
+										<p>Интуитивно<br> понятный<br> интерфейс</p>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="box_wrapper">
-						<div class="box_2" id="time">
-							<img src="svg/box-2.svg">
-							<div class="box_txt">
-								Оптимальный срок<br> поиска соседа<br> (3-5 дней вместо недель)
+
+						<div id="slide-two" class="slides two">
+							<div class="box_wrapper">
+								<div class="box_2" id="time">
+									<img src="svg/box-2.svg" width=263px height=320px>
+									<div class="box_txt">
+										<p>Оптимальный срок<br> 
+										поиска соседа<br> 
+										(3-5 дней вместо недель)
+										</p>
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="box_wrapper">
-						<div class="box_1">
-							<img src="svg/box-3.svg">
-							<div class="box_txt">
-								Отзывчивая<br> техподдержка
+
+						<div id="slide-three" class="slides three">
+							<div class="box_wrapper">
+								<div class="box_1">
+									<img src="svg/box-3.svg" width=321px height=320px>
+									<div class="box_txt">
+										Отзывчивая<br> техподдержка
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="box_wrapper">
-						<div class="box_2">
-							<img src="svg/box-4.svg">
-							<div class="box_txt">
-								Возможность детально<br> прописать требования к<br> соседу
+
+						<div id="slide-four" class="slides four">
+							<div class="box_wrapper">
+								<div class="box_2">
+									<img src="svg/box-4.svg" width=367px height=320px>
+									<div class="box_txt">
+										Возможность детально<br> прописать требования к<br> соседу
+									</div>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="box_wrapper">
-						<div class="box_1">
-							<img src="svg/box-5.svg">
-							<div class="box_txt">
-								Авторизация в<br> несколько кликов с<br> помощью ВК
+
+						<div id="slide-five" class="slides five">
+							<div class="box_wrapper">
+								<div class="box_1">
+									<img src="svg/box-5.svg" width=335px height=320px>
+									<div class="box_txt">
+										Авторизация в<br> несколько кликов с<br> помощью ВК
+									</div>
+								</div>
 							</div>
 						</div>
+						
 					</div>
+				</div>
+
+				<a class="prev" onclick="showSlides(-1)">❮</a>
+				<a class="next" onclick="showSlides(1)">❯</a>
+				<div class="slides-ellipse">
+					<span class="dot active" ></span>
+					<span class="dot" ></span>
+					<span class="dot" ></span>
+					<span class="dot" ></span>
+					<span class="dot" ></span>
 				</div>
 			</div>
 		</div>
@@ -126,37 +158,37 @@
 			<h1 id="fun">Функции приложения</h1>
 			<div class="container">
 				<div class="card1">
-					<h2>Создание и просмотр объявлений</h2>
+					<h2>Создание <br>и просмотр <br>объявлений</h2>
 					<img src="image/функция1.png" class="funcImage">
 				</div>
 				<div class="card2">
-					<h2>Сортировка объявлений</h2>
+					<h2>Сортировка <br>объявлений</h2>
 					<img src="image/функция2.png" class="funcImage2">
 				</div>
 				<div class="card1">
-					<h2>Добавление объявлений и профилей в избранное</h2>
+					<h2>Добавление <br>объявлений <br>и профилей <br>в избранное</h2>
 					<img src="image/функция3.png" class="funcImage3">
 				</div>
 				<div class="card2">
-					<h2>Продвижение объявлений</h2>
+					<h2>Продвижение <br>объявлений</h2>
 					<img src="image/функция4.png" class="funcImage4">
 				</div>
 			</div>
 			<div class="container">
 				<div class="card2">
-					<h2>Детализация профиля</h2>
+					<h2>Детализация <br>профиля</h2>
 					<img src="image/функция5.png" class="funcImage5">
 				</div>
 				<div class="card1">
-					<h2>Просмотр профилей других пользователей</h2>
+					<h2>Просмотр <br>профилей других <br>пользователей</h2>
 					<img src="image/функция6.png" class="funcImage6">
 				</div>
 				<div class="card2">
-					<h2>Удобные фильры для поиска</h2>
+					<h2>Удобные фильры <br>для поиска</h2>
 					<img src="image/функция7.png" class="funcImage7">
 				</div>
 				<div class="card1">
-					<h2>Функции чата и другое</h2>
+					<h2>Функции чата <br>и другое</h2>
 					<img src="image/функция8.png" class="funcImage8">
 				</div>
 			</div>
@@ -201,7 +233,9 @@
 		@copyright all rights reserved
 	</div>
 
-	<script>
+	
+	<script src="./scripts/script.js"></script>
+	<!-- <script>
     // Находим нужные элементы
     const slider = document.querySelector('.slider');
     const sliderWrapper = document.querySelector('.slider_wrapper');
@@ -227,7 +261,7 @@
 
     // Запускаем авто-прокрутку с интервалом
     setInterval(autoScroll, 2000); // 2 секунды на каждый шаг
-</script>
+</script> -->
 
 </body>
 </html>

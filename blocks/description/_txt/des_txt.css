@@ -17,3 +17,16 @@
 .wrapper_des_txt {
 	padding: 10px 0 20px 0;
 }
+
+@media (max-width: 480px) {
+	.des_txt {
+		font-size: 14px;
+		padding-right: 115px;
+	}
+
+	.des_txt p {
+		padding-top: 50px;
+		padding-left: 205px;
+		padding-bottom: 50px;
+	}
+}
