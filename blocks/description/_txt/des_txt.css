@@ -1,32 +1,40 @@
-
 .des_txt {
-	background-color: #FFB800;
-	color: #4B2D10;
-	border-radius: 70px 0 0 70px;
-	font-weight: 500;
-	font-size: 28px;
-	padding-right: 115px;
+  background-color: #ffb800;
+  color: #4b2d10;
+  border-radius: 70px 0 0 70px;
+  font-weight: 500;
+  font-size: 28px;
+  padding-right: 115px;
 }
 
 .des_txt p {
-	padding-top: 50px;
-	padding-left: 105px;
-	padding-bottom: 50px;
+  padding-top: 50px;
+  padding-left: 105px;
+  padding-bottom: 50px;
 }
 
 .wrapper_des_txt {
-	padding: 10px 0 20px 0;
+  width: 100%;
+  max-width: 854px;
+  margin: 0;
+  padding: 50px;
+  padding-right: 115px;
+  background-color: #ffb800;
+  color: #4b2d10;
+  font-weight: 500;
+  border-radius: 70px 0 0 70px;
+  font-size: clamp(20px, 1.8vw, 28px);
 }
 
 @media (max-width: 480px) {
-	.des_txt {
-		font-size: 14px;
-		padding-right: 115px;
-	}
+  .des_txt {
+    font-size: 14px;
+    /*padding-right: 115px;*/
+  }
 
-	.des_txt p {
-		padding-top: 50px;
-		padding-left: 205px;
-		padding-bottom: 50px;
-	}
+  .des_txt p {
+    padding-top: 50px;
+    /*padding-left: 205px;*/
+    padding-bottom: 50px;
+  }
 }

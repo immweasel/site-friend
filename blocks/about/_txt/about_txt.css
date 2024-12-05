@@ -1,26 +1,24 @@
-
 .about_txt {
-	background-color: #FA9F5E;
-	border-radius: 0 60px 60px 0;
-	padding: 10px 10px 10px 0;
+  background-color: #fa9f5e;
+  border-radius: 0 60px 60px 0;
+  padding: 10px 10px 10px 0;
 }
 
 .about_1_txt {
-	padding-top: 40px;
 }
 
 .about_txt_inner {
-	color: #4B2D10;
-	background-color: #FFE8AE;
-	border-radius: 0 50px 50px 0;
-	font-style: italic;
-	font-size: 40px;
-	padding: 10px 80px 10px 100px;
+  color: #4b2d10;
+  background-color: #ffe8ae;
+  border-radius: 0 50px 50px 0;
+  font-style: italic;
+  font-size: clamp(28px, 2.5vw, 40px);
+  padding: 10px 80px 10px 100px;
 }
 
 @media (max-width: 480px) {
-	.about_txt_inner {
-		font-size: 22px;
-		padding: 10px 80px 10px 25px;
-	}
+  .about_txt_inner {
+    font-size: 22px;
+    padding: 10px 80px 10px 25px;
+  }
 }

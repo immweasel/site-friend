@@ -1,241 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-	<script src="https://c.webfontfree.com/c.js?f=Junegull-Regular" type="text/javascript"></script>
-	<link href="https://fonts.cdnfonts.com/css/alegreya-sans" rel="stylesheet">
-	<title>Мой Товарищ</title>
-	<link rel="icon" href="image/NEW_Logo_1.png" type="image/png">
-</head>
-<body>
-	<header>
-		<div class="h_logo">
-			<img src="svg/logo.svg" alt="Логотип">
-		</div>
-		<li class="h_text">
-			<a href="#about">О ПРОДУКТЕ</a>
-		</li>
-		<li class="h_text">
-			<a href="#contacts">КОНТАКТЫ</a>
-		</li>
-		<div class="h_lang"><p>RU</p></div>
-	</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script
+      src="https://c.webfontfree.com/c.js?f=Junegull-Regular"
+      type="text/javascript"
+    ></script>
+    <title>Мой Товарищ</title>
+    <link rel="icon" href="svg/NEW_Logo_1.svg" type="image/png" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <a href="/" class="h_logo">
+          <img src="svg/logo.svg" alt="Логотип" />
+        </a>
+        <nav class="header__nav">
+          <a href="#about">О ПРОДУКТЕ</a>
+          <a href="#contacts">КОНТАКТЫ</a>
+        </nav>
+        <button class="h_lang">RU</button>
+      </div>
+    </header>
 
-	<div class="about">
-		<div class="about_1_txt">
-			<div class="about_need">
-				<div class="about_slog">
-					Просто. Удобно. Надёжно
-				</div>
-				<div class="about_slog_inv">
-				</div>
-			</div>
-			<div class="about_logo">
-				<img src="svg/logo_big.svg">
-			</div>
-			<div class="about_need">
-				<div class="about_txt">
-					<div class="about_txt_inner">
-						Сервис для поиска партнера<br> для совместной аренды жилья
-					</div>
-				</div>
-				<div class="about_slog_inv">
-				</div>
-			</div>
-		</div>
-		<div class="about_2_img">
-			<img src="svg/people.svg">
-		</div>
-	</div>
+    <main>
+      <section class="about">
+        <div class="about_need">
+          <div class="about_slog">Просто. Удобно. Надёжно</div>
+          <div class="about_slog_inv"></div>
+        </div>
+        <div class="about_logo">
+          <img src="svg/logo_big.svg" />
+        </div>
+        <div class="about_need">
+          <div class="about_txt">
+            <div class="about_txt_inner">
+              Сервис для поиска партнера<br />
+              для совместной аренды жилья
+            </div>
+          </div>
+          <div class="about_slog_inv"></div>
+        </div>
+        <img class="about__img" src="svg/people.svg" />
+      </section>
+      <section class="description">
+        <div class="des_img">
+          <img src="svg/phone.svg" />
+        </div>
+        <p class="wrapper_des_txt">
+          Мой Товарищ — это не просто сервис, а твой личный помощник в поиске
+          соседей! Он позволяет находить подходящие варианты по критериям,
+          общаться с потенциальными соседями и многое другое. Создавай
+          объявления со своими параметрами или выбирай из опубликованных.
+        </p>
+      </section>
 
-	<main>
-		<div class="description">
-			<div class="des_img">
-				<img src="svg/phone.svg">
-			</div>
-			<div class="wrapper_des_txt">
-				<div class="des_txt">
-					<p>
-						Мой Товарищ — это не просто сервис, а твой личный<br>
-						помощник в поиске соседей! Он позволяет находить<br>
-						подходящие варианты по критериям, общаться<br>
-						с потенциальными соседями и многое другое. Создавай<br>
-						объявления со своими параметрами или выбирай<br>
-						из опубликованных.
-					</p>
-				</div>
-			</div>
-		</div>
+      <section class="product">
+        <img src="svg/product.svg" class="heading" id="about" />
+        <h2 id="why">Почему мы?</h2>
+        <div class="swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="box_1">
+                <img src="svg/box-1.svg" width="318px" height="320px" />
+                <div class="box_txt">
+                  <p>
+                    Интуитивно<br />
+                    понятный<br />
+                    интерфейс
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box_2" id="time">
+                <img src="svg/box-2.svg" width="263px" height="320px" />
+                <div class="box_txt">
+                  <p>
+                    Оптимальный срок<br />
+                    поиска соседа<br />
+                    (3-5 дней вместо недель)
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box_1">
+                <img src="svg/box-3.svg" width="321px" height="320px" />
+                <div class="box_txt">
+                  Отзывчивая<br />
+                  техподдержка
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box_2">
+                <img src="svg/box-4.svg" width="367px" height="320px" />
+                <div class="box_txt">
+                  Возможность детально<br />
+                  прописать требования к<br />
+                  соседу
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="box_1">
+                <img src="svg/box-5.svg" width="335px" height="320px" />
+                <div class="box_txt">
+                  Авторизация в<br />
+                  несколько кликов с<br />
+                  помощью ВК
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-row">
+            <button class="swiper-left">❮</button>
+            <div class="swiper-pagination"></div>
+            <button class="swiper-right">❯</button>
+          </div>
+        </div>
+      </section>
 
-		<div class="product">
-			<div class="heading" id="about"><img src="image/product.png"></div>
-			<h2 id="why">Почему мы?</h2>
-			
-			<div class="slideshow-container">
-				<div class="slider">
-					<div class="slider_wrapper">
+      <div class="functions">
+        <h1 id="fun">Функции приложения</h1>
+        <div class="container">
+          <div class="card1">
+            <h2>Создание <br />и просмотр <br />объявлений</h2>
+            <img src="svg/function1.svg" class="funcImage" />
+          </div>
+          <div class="card2">
+            <h2>Сортировка <br />объявлений</h2>
+            <img src="svg/function2.svg" class="funcImage2" />
+          </div>
+          <div class="card1">
+            <h2>
+              Добавление <br />объявлений <br />и профилей <br />в избранное
+            </h2>
+            <img src="svg/function3.svg" class="funcImage3" />
+          </div>
+          <div class="card2">
+            <h2>Продвижение <br />объявлений</h2>
+            <img src="svg/function4.svg" class="funcImage4" />
+          </div>
+        </div>
+        <div class="container">
+          <div class="card2">
+            <h2>Детализация <br />профиля</h2>
+            <img src="svg/function5.svg" class="funcImage5" />
+          </div>
+          <div class="card1">
+            <h2>Просмотр <br />профилей других <br />пользователей</h2>
+            <img src="svg/function6.svg" class="funcImage6" />
+          </div>
+          <div class="card2">
+            <h2>Удобные фильры <br />для поиска</h2>
+            <img src="svg/function7.svg" class="funcImage7" />
+          </div>
+          <div class="card1">
+            <h2>Функции чата <br />и другое</h2>
+            <img src="svg/function8.svg" class="funcImage8" />
+          </div>
+        </div>
+      </div>
 
-						<div id="slide-one" class="slides one">
-							<div class="box_wrapper">
-								<div class="box_1">
-									<img src="svg/box-1.svg" width=318px height=320px>
-									<div class="box_txt">
-										<p>Интуитивно<br> понятный<br> интерфейс</p>
-									</div>
-								</div>
-							</div>
-						</div>
+      <div class="demo">
+        <h1 id="demo">Демоверсия</h1>
+        <div class="container">
+          <div class="mobile">
+            <div class="screen">
+              <img src="svg/Main.svg" />
+            </div>
+            <div class="screen">
+              <img src="svg/Profil.svg" />
+            </div>
+            <div class="screen">
+              <img src="svg/Obav.svg" />
+            </div>
+            <div class="screen">
+              <img src="svg/Chat.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
 
-						<div id="slide-two" class="slides two">
-							<div class="box_wrapper">
-								<div class="box_2" id="time">
-									<img src="svg/box-2.svg" width=263px height=320px>
-									<div class="box_txt">
-										<p>Оптимальный срок<br> 
-										поиска соседа<br> 
-										(3-5 дней вместо недель)
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
+    <footer>
+      <h1 id="contacts">КОНТАКТЫ</h1>
+      <h3>Если у тебя возникли вопросы, обязательно напиши нам!</h3>
+      <a href="https://vk.com/moitovarish" target="_blank">
+        <div class="vk-link">
+          <img src="svg/vk.svg" class="logoVK" />
+          <p>Сообщество ВК</p>
+          <img src="svg/vk_vector.svg" class="fonVK" />
+        </div>
+      </a>
+    </footer>
 
-						<div id="slide-three" class="slides three">
-							<div class="box_wrapper">
-								<div class="box_1">
-									<img src="svg/box-3.svg" width=321px height=320px>
-									<div class="box_txt">
-										Отзывчивая<br> техподдержка
-									</div>
-								</div>
-							</div>
-						</div>
+    <div class="copyright">@copyright all rights reserved</div>
 
-						<div id="slide-four" class="slides four">
-							<div class="box_wrapper">
-								<div class="box_2">
-									<img src="svg/box-4.svg" width=367px height=320px>
-									<div class="box_txt">
-										Возможность детально<br> прописать требования к<br> соседу
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div id="slide-five" class="slides five">
-							<div class="box_wrapper">
-								<div class="box_1">
-									<img src="svg/box-5.svg" width=335px height=320px>
-									<div class="box_txt">
-										Авторизация в<br> несколько кликов с<br> помощью ВК
-									</div>
-								</div>
-							</div>
-						</div>
-						
-					</div>
-				</div>
-
-				<a class="prev" onclick="showSlides(-1)">❮</a>
-				<a class="next" onclick="showSlides(1)">❯</a>
-				<div class="slides-ellipse">
-					<span class="dot active" ></span>
-					<span class="dot" ></span>
-					<span class="dot" ></span>
-					<span class="dot" ></span>
-					<span class="dot" ></span>
-				</div>
-			</div>
-		</div>
-
-		<div class="functions">
-			<h1 id="fun">Функции приложения</h1>
-			<div class="container">
-				<div class="card1">
-					<h2>Создание <br>и просмотр <br>объявлений</h2>
-					<img src="image/функция1.png" class="funcImage">
-				</div>
-				<div class="card2">
-					<h2>Сортировка <br>объявлений</h2>
-					<img src="image/функция2.png" class="funcImage2">
-				</div>
-				<div class="card1">
-					<h2>Добавление <br>объявлений <br>и профилей <br>в избранное</h2>
-					<img src="image/функция3.png" class="funcImage3">
-				</div>
-				<div class="card2">
-					<h2>Продвижение <br>объявлений</h2>
-					<img src="image/функция4.png" class="funcImage4">
-				</div>
-			</div>
-			<div class="container">
-				<div class="card2">
-					<h2>Детализация <br>профиля</h2>
-					<img src="image/функция5.png" class="funcImage5">
-				</div>
-				<div class="card1">
-					<h2>Просмотр <br>профилей других <br>пользователей</h2>
-					<img src="image/функция6.png" class="funcImage6">
-				</div>
-				<div class="card2">
-					<h2>Удобные фильры <br>для поиска</h2>
-					<img src="image/функция7.png" class="funcImage7">
-				</div>
-				<div class="card1">
-					<h2>Функции чата <br>и другое</h2>
-					<img src="image/функция8.png" class="funcImage8">
-				</div>
-			</div>
-		</div>
-
-		<div class="demo">
-			<h1 id="demo">Демоверсия</h1>
-			<div class="container">
-				<div class="mobile">
-					<div class="screen">
-						<img src="image/Главная.png">
-					</div>
-					<div class="screen">
-						<img src="image/Профиль.png">
-					</div>
-					<div class="screen">
-						<img src="image/Объявления.png">
-					</div>
-					<div class="screen">
-						<img src="image/Чат.png">
-					</div>
-				</div>
-			</div>
-		</div>			
-
-	</main>
-
-	<footer>
-		<h1 id="contacts">КОНТАКТЫ</h1>
-		<h3>Если у тебя возникли вопросы, обязательно напиши нам!</h3>
-		<a href="https://vk.com/moitovarish" target="_blank">
-			<div class="vk-link">
-				<img src="svg/vk.svg">
-				<p>Сообщество ВК</p>
-				<img src="svg/vk_vector.svg">
-			</div>
-		</a>
-	</footer>
-
-
-	<div class="copyright">
-		@copyright all rights reserved
-	</div>
-
-	
-	<script src="./scripts/script.js"></script>
-	<!-- <script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./scripts/script.js"></script>
+    <!-- <script>
     // Находим нужные элементы
     const slider = document.querySelector('.slider');
     const sliderWrapper = document.querySelector('.slider_wrapper');
@@ -262,6 +235,5 @@
     // Запускаем авто-прокрутку с интервалом
     setInterval(autoScroll, 2000); // 2 секунды на каждый шаг
 </script> -->
-
-</body>
+  </body>
 </html>

@@ -1,5 +1,9 @@
-
 .des_img img {
-	width: 400px;
-	padding-right: 310px;
+  max-width: 400px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.des_img {
+  margin: 0 auto;
 }

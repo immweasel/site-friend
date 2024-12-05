@@ -21,3 +21,14 @@ footer h3 {
 	margin: 0;
 	padding-bottom: 60px;
 }
+
+@media (max-width: 480px) {
+	footer h1 {
+		font-size: 50px;
+		font-weight: 700;
+	}
+	
+	footer h3 {
+		font-size: 17px;
+	}
+}

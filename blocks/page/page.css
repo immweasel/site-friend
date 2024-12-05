@@ -1,7 +1,15 @@
-
-html, body {
-	overflow-x: hidden;
-	background-color: #FFE8AE;
-	font-family: 'Alegreya Sans';
+html,
+body {
+  overflow-x: hidden;
+  background-color: #ffe8ae;
+  font-family: "Alegreya Sans";
   margin: 0;
+  position: relative;
+  z-index: -2;
+}
+
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  min-width: 320px;
 }

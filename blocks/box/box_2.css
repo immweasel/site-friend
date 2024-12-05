@@ -1,19 +1,20 @@
-
 .box_2 {
-	padding: 90px;
-	padding-top: 34px;
-	font-size: 36px;
-	/* background-color: #FFB800; */
-	border: 3px solid #BB8D6C;
-	border-radius: 70px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	text-align: center;
-	width: 450px;
-	height: 550px;
+  font-size: 36px;
+  /* background-color: #FFB800; */
+  border: 3px solid #bb8d6c;
+  border-radius: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 575px;
+  margin: 0 auto;
+  height: 675px;
+  padding: 60px;
+  gap: 24px;
 }
 
 .box_2 img {
-	width: 200px;
+  width: 200px;
 }

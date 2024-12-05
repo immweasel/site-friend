@@ -1,6 +1,7 @@
-
 .about_2_img img {
-	width: 720px;
-	padding-left: 225px;
-	margin-bottom: 50px;
+  width: 100%;
+  max-width: 720px;
+  object-fit: contain;
+  margin-left: 225px;
+  margin-bottom: 50px;
 }

@@ -1,26 +1,24 @@
-
 .h_lang {
-	border-radius: 50px;
-	background-color: #BB8D6C;
-	color: #FFF4D9;
-	padding: 5px 40px;
-	display: flex;
-	justify-content: center;
+  border-radius: 50px;
+  background-color: #bb8d6c;
+  color: #fff4d9;
+  padding: 25px 40px;
+  border: none;
 }
 
 @media (max-width: 768px) {
-	.h_lang {
-		margin: 20px 0;
-		width: auto;
-		justify-content: center;
-		display: none;
-	}
+  .h_lang {
+    margin: 20px 0;
+    width: auto;
+    justify-content: center;
+    display: none;
+  }
 }
 
 @media (max-width: 480px) {
-	.h_lang {
-		width: auto;
-		padding: 5px;
-		margin: 10px auto;
-	}
+  .h_lang {
+    width: auto;
+    padding: 5px;
+    margin: 10px auto;
+  }
 }
